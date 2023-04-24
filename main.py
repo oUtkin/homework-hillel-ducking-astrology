@@ -9,9 +9,6 @@ try:
 except ValueError:
     print('Будь ласка, використовуйте тільки цілі числа')
     exit()
-else:
-    day = int(day)
-    month = int(month)
 
 # checking that day and month are valid
 if (day or month) < 1:
